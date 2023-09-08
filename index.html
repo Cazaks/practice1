@@ -1,75 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practics</title><link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
     <section class="header">
-    <nav>
-        <a href="/facebook.html"><img src="/Images/Logo (2).jpeg" alt=""></a> 
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Courses</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav> 
-    <div class="text-box">
+      <nav>
+        <a href="/facebook.html"><img src="/Images/Logo (2).jpeg" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
         <h1>World biggest University</h1>
-        <p>Making Website is now one of the easiest thing in the world. you just need to learn HTML, CSS, <br> JavaScript and you are good to go.</p>
+        <p>
+          Making Website is now one of the easiest thing in the world. you just
+          need to learn HTML, CSS, <br />
+          JavaScript and you are good to go.
+        </p>
         <a href="" class="hero-btn">Visit us to know more</a>
-    </div>  
+      </div>
     </section>
-    
+
     <!-- Courses  -->
-<section class="course">
-    <h1>Courses we offer</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-    <div class="row">
+    <section class="course">
+      <h1>Courses we offer</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <div class="row">
         <div class="course-col">
-            <h3>Intermidiate</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto maiores quod suscipit eaque facilis dolorem doloribus illum. Fugiat, quae modi.</p>
+          <h3>Intermidiate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            architecto maiores quod suscipit eaque facilis dolorem doloribus
+            illum. Fugiat, quae modi.
+          </p>
         </div>
         <div class="course-col">
-            <h3>Degree</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto maiores quod suscipit eaque facilis dolorem doloribus illum. Fugiat, quae modi.</p>
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            architecto maiores quod suscipit eaque facilis dolorem doloribus
+            illum. Fugiat, quae modi.
+          </p>
         </div>
         <div class="course-col">
-            <h3>Post Graduate </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto maiores quod suscipit eaque facilis dolorem doloribus illum. Fugiat, quae modi.</p>
+          <h3>Post Graduate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            architecto maiores quod suscipit eaque facilis dolorem doloribus
+            illum. Fugiat, quae modi.
+          </p>
         </div>
-    </div>
+      </div>
+    </section>
 
-</section>
-
-<!-- Campus -->
-<section class="campus">
-<h1>Our Global Campus</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita eius debitis molestias sequi, magni omnis corporis nostrum nemo quam minus!</p>
-</section>
+    <!-- Campus -->
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita eius
+        debitis molestias sequi, magni omnis corporis nostrum nemo quam minus!
+      </p>
+    </section>
 
     <!-- Javascript for Toggle Menu -->
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
         navLinks.style.right = "0";
-    }
-    function hideMenu(){
+      }
+      function hideMenu() {
         navLinks.style.right = "-200px";
-    }
-</script>
-
-</body>
+      }
+    </script>
+  </body>
 </html>
